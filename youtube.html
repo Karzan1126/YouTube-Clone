@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yotube Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS FIles/general.css" />
+    <link rel="stylesheet" href="CSS FIles/header.css" />
+    <link rel="stylesheet" href="CSS FIles/video.css" />
+    <link rel="stylesheet" href="CSS FIles/sidebar.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img
+          class="hamburger"
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/hamburger-menu.svg"
+          alt=""
+        />
+        <img
+          class="YT-logo"
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-logo.svg"
+          alt=""
+        />
+      </div>
+      <div class="mid-section">
+        <input class="search" type="text" name="" id="" placeholder="Search" />
+        <button class="search-button">
+          <img
+            class="search-icon"
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/search.svg"
+            alt=""
+          />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="mic-button">
+          <img
+            class="mic"
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search With Your Voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-div">
+          <img
+            class="upload"
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/upload.svg"
+            alt=""
+          />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="apps-div">
+          <img
+            class="apps"
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-apps.svg"
+            alt=""
+          />
+          <div class="tooltip">Apps</div>
+        </div>
+
+        <div class="notif-div">
+          <img
+            class="notif"
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg"
+            alt=""
+          />
+          <div class="notif-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img
+          class="self-profile"
+          src="https://yt3.ggpht.com/zhmliLJYCB5YxIn4G4o-V1gmlnnaHMjiT0m-68WMBrkhUBvYVoQi_C2bzxM6qFZ6cxdvaTsvBVw=s88-c-k-c0x00ffffff-no-rj-mo"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/home.svg"
+          alt=""
+        />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/explore.svg"
+          alt=""
+        />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/subscriptions.svg"
+          alt=""
+        />
+        <div>Subcriptions</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/originals.svg"
+          alt=""
+        />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-music.svg"
+          alt=""
+        />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/library.svg"
+          alt=""
+        />
+        <div>Library</div>
+      </div>
+    </div>
+    <div class="YT-grid">
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=eIGgHtarSeg"
+            ><img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/eIGgHtarSeg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmt0a2E4QZMglZ3qmVUJf_mZBhQw"
+              alt=""
+          /></a>
+          <div class="video-time">3:08</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/c/Karzanius"
+              ><img
+                class="profile"
+                id="Karzanius"
+                src="https://yt3.ggpht.com/zhmliLJYCB5YxIn4G4o-V1gmlnnaHMjiT0m-68WMBrkhUBvYVoQi_C2bzxM6qFZ6cxdvaTsvBVw=s176-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">The Best Ft. Lord Shen</p>
+            <p class="video-author">Karzanius</p>
+            <p class="video-stats">77K Views &middot; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=P1oA7uc4WzE"
+            ><img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/P1oA7uc4WzE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBECrGcsilptE9nCAVshF56RLGSmw"
+              alt=""
+          /></a>
+          <div class="video-time">2:08</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/c/RyanGeorge">
+              <img
+                class="profile"
+                src="https://yt3.ggpht.com/ytc/AKedOLRIDqMmSiUvt93TWhntOqZDaf2zKNMJx3iyHCXDjA=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">Being a Motivational Speaker in MCU</p>
+            <p class="video-author">Ryan George &check;</p>
+            <p class="video-stats">1.9M Views &middot; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/shorts/ib-3kJb0Bv4"
+            ><img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/ib-3kJb0Bv4/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZnyPqEHtBFHatDQ4LS_HIZDN6ag"
+              alt=""
+          /></a>
+          <div class="video-time">0:59</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/c/Solidjj"
+              ><img
+                class="profile"
+                src="https://yt3.ggpht.com/V_UxkRX63vdNi2lPv8g1pMRWhaYVKhx0ovvF4vz8EDKq2nZGsWh5fY7Tu6dgMr09-vHa4UPI8A=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">Spider-Man: Please Just Go Home</p>
+            <p class="video-author">Solid jj &check;</p>
+            <p class="video-stats">5.7M Views &middot; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=MTULF7IsOJ0">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/MTULF7IsOJ0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVjyRnjWheVg4Vc_j8khzRVej9gg"
+              alt=""
+            />
+          </a>
+          <div class="video-time">1:10</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/c/theepictallguy">
+              <img
+                class="profile"
+                src="https://yt3.ggpht.com/ytc/AKedOLRYq_kCyyh1tQCAfEeswkvNGOM1wUhYfxWoKdZkaJs=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">The Most Clutch Chess Checkmate</p>
+            <p class="video-author">theepictallguy</p>
+            <p class="video-stats">1.4M Views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=fb8WFMRMMZM">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/fb8WFMRMMZM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnu56NqfnW6ptrE0CxvKU3LnkBRA"
+              alt=""
+          /></a>
+          <div class="video-time">31:30</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/c/uricksaladbar"
+              ><img
+                class="profile"
+                src="https://yt3.ggpht.com/ytc/AKedOLSBek12x6e7bBD6SgbiGmhxueGOAYZjwSgdN3l44A=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">
+              Squid Game vs Invincible - Bad &amp; Good Twists
+            </p>
+            <p class="video-author">uricksaladbar &check;</p>
+            <p class="video-stats">688K Views &middot; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=SmPtp-tA8hY">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/SmPtp-tA8hY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpTIRqb_CP091W4kjN80K2wWMeTA"
+              alt=""
+          /></a>
+          <div class="video-time">2:44</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/channel/UCXeosHJqF0X7ZJKLF8YaK2Q"
+              ><img
+                class="profile"
+                src="https://yt3.ggpht.com/o3E9uPuHYR-soi251CyOG0LphKBv0BbAP7L_4Z8eB1rCxXwM63NgfdE83C_OxT8zH0AtGh4d5w=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">CHESS.EXE 2</p>
+            <p class="video-author">Dartooze</p>
+            <p class="video-stats">883K Views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=MCvsdcc9ocM">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/MCvsdcc9ocM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWgqyVisyttc-H7hlIVhqgMUYfUg"
+              alt=""
+          /></a>
+          <div class="video-time">6:07</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/c/Joeseppi">
+              <img
+                class="profile"
+                src="https://yt3.ggpht.com/ytc/AKedOLQeDKkW16JHQjnPJBW1R67l9ueTVFEx5XFp8AQ8Mg=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">The Apple Store in a Nutshell</p>
+            <p class="video-author">Joeseppi &check;</p>
+            <p class="video-stats">2.3M Views &middot; 5 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/G3e-cpL7ofc/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVzjianD_GpKIvMvZ1jHaBet0rug"
+              alt=""
+          /></a>
+          <div class="video-time">6:31:23</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/c/SuperSimpleDev">
+              <img
+                class="profile"
+                src="https://yt3.ggpht.com/ytc/AKedOLSoPzZFsT6n9btrXJ7bYRTnfd1-aYKvre3LScrD=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">
+              HTML & CSS Full Course - Beginner to Pro (2022)
+            </p>
+            <p class="video-author">SuperDimpleDev</p>
+            <p class="video-stats">974K Views &middot; 5 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=36ax5HbHwbU"
+            ><img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/36ax5HbHwbU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCyFjYqgaLl9Lb3YAm7Ieq4fhcucQ"
+              alt=""
+          /></a>
+          <div class="video-time">1:01</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/c/MultsElMesco">
+              <img
+                class="profile"
+                src="https://yt3.ggpht.com/ytc/AKedOLRAawVyKsa0SrUlkFTNZ63ZUSYHF_eZuit3GGgJAA=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">Learning Unity be Like</p>
+            <p class="video-author">Mults</p>
+            <p class="video-stats">883K Views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/shorts/z9iKMAOz7lk">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/z9iKMAOz7lk/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXnsnGwjJL9bHokSrVAT6tv1AsCA"
+              alt=""
+          /></a>
+          <div class="video-time">0:59</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/c/Solidjj"
+              ><img
+                class="profile"
+                src="https://yt3.ggpht.com/V_UxkRX63vdNi2lPv8g1pMRWhaYVKhx0ovvF4vz8EDKq2nZGsWh5fY7Tu6dgMr09-vHa4UPI8A=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">Team Rocket has had enough</p>
+            <p class="video-author">Solid jj &check;</p>
+            <p class="video-stats">5.6M Views &middot; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=9xj7Nb3rY0o">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/9xj7Nb3rY0o/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAenn6_zNKwLDO1UeHjhrtdLNymbQ"
+              alt=""
+          /></a>
+          <div class="video-time">0:23</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/c/TheHumanSpiderr"
+              ><img
+                class="profile"
+                src="https://yt3.ggpht.com/ytc/AKedOLT49cQJY_BoahuyLODZQ2cyCBpverqO80vJr2Nqyg=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">
+              "Wanda, Bully Maguire can put some dirt in your eyes"
+            </p>
+            <p class="video-author">The Human Spider</p>
+            <p class="video-stats">152K Views &middot; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=D2RrRsBgbv0">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/D2RrRsBgbv0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1-hu2Ua42I6tXsduvYrrWoJTvvw"
+              alt=""
+          /></a>
+          <div class="video-time">6:50</div>
+        </div>
+        <div class="video-grid">
+          <div class="profile-div">
+            <a href="https://www.youtube.com/c/Joeseppi">
+              <img
+                class="profile"
+                src="https://yt3.ggpht.com/ytc/AKedOLQeDKkW16JHQjnPJBW1R67l9ueTVFEx5XFp8AQ8Mg=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+            /></a>
+          </div>
+          <div class="text">
+            <p class="video-title">Chess in a Nutshell</p>
+            <p class="video-author">Joeseppi &check;</p>
+            <p class="video-stats">5.2M Views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
